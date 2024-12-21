@@ -127,11 +127,11 @@ BUILD_WITHOUT_VENDOR := true
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6877
-BOARD_HAS_MTK_HARDWARE := ture
+BOARD_HAS_MTK_HARDWARE := true
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-#TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6877
@@ -150,7 +150,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 VENDOR_SECURITY_PATCH := 2024-07-01
 
 # SELinux
-#include device/mediatek/sepolicy_vndr/SEPolicy.mk
+include $(DEVICE_PATH)/mediatek/sepolicy_vndr/SEPolicy.mk
 SELINUX_IGNORE_NEVERALLOWS := true
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 TARGET_USES_PREBUILT_VENDOR_SEPOLICY := true
