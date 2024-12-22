@@ -17,12 +17,12 @@ $(call inherit-product, device/samsung/a34x/device.mk)
 PRODUCT_DEVICE := a34x
 PRODUCT_NAME := lineage_a34x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A346B
+PRODUCT_MODEL := SM-A346E
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="a34xxx-user 14 UP1A.231005.007 A346BXXU6CXD5 release-keys"
+    PRIVATE_BUILD_DESC="a34xks-user 14 UP1A.231005.007 A346EXU6CXD5 release-keys"
 
-BUILD_FINGERPRINT := samsung/a34xxx/a34x:14/UP1A.231005.007/A346BXXU6CXD5:user/release-keys
+BUILD_FINGERPRINT := samsung/a34xks/a34x:14/UP1A.231005.007/A346EXXU6CXD5:user/release-keys
