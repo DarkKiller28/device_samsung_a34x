@@ -564,3 +564,15 @@
     </interface>
 </hal>
 </compatibility-matrix>
+<hal format="hidl">
+    <name>android.hardware.foo</name>
+    <version>1.2</version>
+    <interface>
+        <name>IFoo</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<vndk>
+    <version>31</version>
+</vndk>
