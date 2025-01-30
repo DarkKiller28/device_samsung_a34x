@@ -251,19 +251,16 @@
         <name>vendor.samsung.hardware.tlc.payment</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::ISehTlcPayment/default</fqname>
-    </hal>
+    </hal>   
     <hal format="hidl">
         <name>vendor.samsung.hardware.wifi.supplicant</name>
         <transport>hwbinder</transport>
         <fqname>@3.1::ISehSupplicant/default</fqname>
     </hal>
-<hal format="hidl">
-    <name>android.hardware.foo</name>
-    <transport>hwbinder</transport>
-    <version>1.2</version>
-    <interface>
-        <name>IFoo</name>
-        <instance>default</instance>
-    </interface>
-</hal>
+    
+    <hal format="hidl">
+        <name>android.hardware.foo</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::IFoo/default</fqname>
+    </hal>
 </manifest>
