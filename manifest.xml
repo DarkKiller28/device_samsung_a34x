@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest version="4.0" type="device" target-level="5">
     <hal format="hidl">
         <name>android.hardware.audio</name>
@@ -9,7 +10,6 @@
         <transport>hwbinder</transport>
         <fqname>@7.0::IEffectsFactory/default</fqname>
     </hal>
-    
     <hal format="hidl">
         <name>android.hardware.bluetooth</name>
         <transport>hwbinder</transport>
@@ -67,10 +67,6 @@
         <transport arch="32+64">passthrough</transport>
         <fqname>@1.0::IDevice/default</fqname>
     </hal>
-  
-
-
-  
     <hal format="hidl">
         <name>android.hardware.soundtrigger</name>
         <transport>hwbinder</transport>
@@ -241,7 +237,6 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::ISehSkpm/default</fqname>
     </hal>
-    
     <hal format="hidl">
         <name>vendor.samsung.hardware.sysinput</name>
         <transport>hwbinder</transport>
@@ -251,7 +246,7 @@
         <name>vendor.samsung.hardware.tlc.payment</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::ISehTlcPayment/default</fqname>
-    </hal>   
+    </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.wifi.supplicant</name>
         <transport>hwbinder</transport>
