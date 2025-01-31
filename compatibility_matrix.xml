@@ -428,174 +428,173 @@
         <interface>
             <name>ISehRadio</name>
             <instance>slot1</instance>
-            <instance>slot2</
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.security.drk</name>
-    <version>2.0</version>
-    <interface>
-        <name>ISehDrk</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.security.engmode</name>
-    <version>1.0</version>
-    <interface>
-        <name>ISehEngmode</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="aidl" optional="true">
-    <name>vendor.samsung.hardware.security.fkeymaster</name>
-    <interface>
-        <name>ISehFkeymaster</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="aidl" optional="true">
-    <name>vendor.samsung.hardware.security.ssu</name>
-    <interface>
-        <name>ISehSSUTEECL</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.security.vaultkeeper</name>
-    <version>2.0</version>
-    <interface>
-        <name>ISehVaultKeeper</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="aidl" optional="true">
-    <name>vendor.samsung.hardware.security.widevine.keyprov</name>
-    <interface>
-        <name>ISehWidevineKeyProv</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="aidl" optional="true">
-    <name>vendor.samsung.hardware.security.wsm.service</name>
-    <interface>
-        <name>ISehWsm</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.sysinput</name>
-    <version>1.0-3</version>
-    <interface>
-        <name>ISehSysInputDev</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.thermal</name>
-    <version>1.0</version>
-    <interface>
-        <name>ISehThermal</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.tlc.hdm</name>
-    <version>1.0-1</version>
-    <interface>
-        <name>ISehHdm</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.tlc.iccc</name>
-    <version>1.0</version>
-    <interface>
-        <name>ISehIccc</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.tlc.kg</name>
-    <version>1.0-1</version>
-    <interface>
-        <name>ISehKg</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.tlc.mpos_tui</name>
-    <version>1.0</version>
-    <interface>
-        <name>ISehMposTui</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.tlc.ucm</name>
-    <version>2.0</version>
-    <interface>
-        <name>ISehUcm</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.wifi.hostapd</name>
-    <version>4.0</version>
-    <interface>
-        <name>ISehHostapd</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.wifi.supplicant</name>
-    <version>3.0-1</version>
-    <interface>
-        <name>ISehSupplicant</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
-    <name>vendor.samsung.hardware.wifi</name>
-    <version>2.0-3</version>
-    <interface>
-        <name>ISehWifi</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="false">
-    <name>android.frameworks.schedulerservice</name>
-    <version>1.0</version>
-</hal>
-</hal>
-<hal format="hidl" optional="false">
-    <name>android.frameworks.sensorservice</name>
-    <version>1.0</version>
-</hal>
-<hal format="hidl" optional="false">
-  <name>android.hidl.allocator</name>
-  <version>1.0</version>
-</hal>
-<hal format="hidl" optional="false">
-  <name>android.hidl.manager</name>
-  <version>1.0</version>
-</hal>
-<hal format="hidl" optional="false">
-  <name>android.hidl.memory</name>
-  <version>1.0</version>
-</hal>
-<hal format="hidl" optional="false">
-  <name>android.hidl.token</name>
-  <version>1.0</version>
-</hal>
-<hal format="hidl" optional="false">
-  <name>android.system.wifi.keystore</name>
-  <version>1.0</version>
-</hal>
-<vendor-ndk>
-  <version>31</version>
-</vendor-ndk>
-<system-sdk>
-  <version>31</version>
-</system-sdk>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.security.drk</name>
+        <version>2.0</version>
+        <interface>
+            <name>ISehDrk</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.security.engmode</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISehEngmode</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.samsung.hardware.security.fkeymaster</name>
+        <interface>
+            <name>ISehFkeymaster</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.samsung.hardware.security.ssu</name>
+        <interface>
+            <name>ISehSSUTEECL</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.security.vaultkeeper</name>
+        <version>2.0</version>
+        <interface>
+            <name>ISehVaultKeeper</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.samsung.hardware.security.widevine.keyprov</name>
+        <interface>
+            <name>ISehWidevineKeyProv</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.samsung.hardware.security.wsm.service</name>
+        <interface>
+            <name>ISehWsm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.sysinput</name>
+        <version>1.0-3</version>
+        <interface>
+            <name>ISehSysInputDev</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.thermal</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISehThermal</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.tlc.hdm</name>
+        <version>1.0-1</version>
+        <interface>
+            <name>ISehHdm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.tlc.iccc</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISehIccc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.tlc.kg</name>
+        <version>1.0-1</version>
+        <interface>
+            <name>ISehKg</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.tlc.mpos_tui</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISehMposTui</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.tlc.ucm</name>
+        <version>2.0</version>
+        <interface>
+            <name>ISehUcm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.wifi.hostapd</name>
+        <version>4.0</version>
+        <interface>
+            <name>ISehHostapd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.wifi.supplicant</name>
+        <version>3.0-1</version>
+        <interface>
+            <name>ISehSupplicant</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.wifi</name>
+        <version>2.0-3</version>
+        <interface>
+            <name>ISehWifi</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>android.frameworks.schedulerservice</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>android.frameworks.sensorservice</name>
+        <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+      <name>android.hidl.allocator</name>
+      <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+      <name>android.hidl.manager</name>
+      <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+      <name>android.hidl.memory</name>
+      <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+      <name>android.hidl.token</name>
+      <version>1.0</version>
+    </hal>
+    <hal format="hidl" optional="false">
+      <name>android.system.wifi.keystore</name>
+      <version>1.0</version>
+    </hal>
+    <vendor-ndk>
+      <version>31</version>
+    </vendor-ndk>
+    <system-sdk>
+      <version>31</version>
+    </system-sdk>
 </compatibility-matrix>
